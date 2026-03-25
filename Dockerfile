@@ -2,10 +2,10 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-ENV NODE_ENV=production
-
 COPY package*.json .npmrc ./
 RUN npm install --legacy-peer-deps
+
+ENV NODE_ENV=production
 
 COPY build ./build
 COPY public ./public
