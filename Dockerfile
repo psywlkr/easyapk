@@ -5,10 +5,11 @@ WORKDIR /app
 COPY package*.json .npmrc ./
 RUN npm install --legacy-peer-deps
 
+COPY . .
+
 ENV NODE_ENV=production
 
-COPY build ./build
-COPY public ./public
+RUN npm run build
 
 EXPOSE 3000
 
