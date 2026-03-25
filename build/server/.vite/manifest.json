@@ -1,0 +1,156 @@
+{
+  "_auth-CHx9EKV0.js": {
+    "file": "assets/auth-CHx9EKV0.js",
+    "name": "auth"
+  },
+  "_index-Dso1OIu2.js": {
+    "file": "assets/index-Dso1OIu2.js",
+    "name": "index",
+    "dynamicImports": [
+      "virtual:react-router/server-build",
+      "src/app/api/__create/ssr-test/route.js",
+      "src/app/api/admin/promote-me/route.js",
+      "src/app/api/admin/stats/route.js",
+      "src/app/api/auth/expo-web-success/route.js",
+      "src/app/api/auth/me/route.js",
+      "src/app/api/auth/signin/route.js",
+      "src/app/api/auth/signup/route.js",
+      "src/app/api/auth/token/route.js",
+      "src/app/api/builds/[id]/route.js",
+      "src/app/api/builds/route.js",
+      "src/app/api/projects/[id]/route.js",
+      "src/app/api/projects/route.js",
+      "src/app/api/validate-pwa/route.js"
+    ]
+  },
+  "_sql-BfhTxwII.js": {
+    "file": "assets/sql-BfhTxwII.js",
+    "name": "sql"
+  },
+  "src/app/api/__create/ssr-test/route.js": {
+    "file": "assets/route-CkSr1pmn.js",
+    "name": "route",
+    "src": "src/app/api/__create/ssr-test/route.js",
+    "isDynamicEntry": true
+  },
+  "src/app/api/admin/promote-me/route.js": {
+    "file": "assets/route-DW1tAOqW.js",
+    "name": "route",
+    "src": "src/app/api/admin/promote-me/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js",
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/admin/stats/route.js": {
+    "file": "assets/route-DNzhr0Vm.js",
+    "name": "route",
+    "src": "src/app/api/admin/stats/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js",
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/auth/expo-web-success/route.js": {
+    "file": "assets/route-Ds7wDXew.js",
+    "name": "route",
+    "src": "src/app/api/auth/expo-web-success/route.js",
+    "isDynamicEntry": true
+  },
+  "src/app/api/auth/me/route.js": {
+    "file": "assets/route-c_Ipi1my.js",
+    "name": "route",
+    "src": "src/app/api/auth/me/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/auth/signin/route.js": {
+    "file": "assets/route-BcZX1y_q.js",
+    "name": "route",
+    "src": "src/app/api/auth/signin/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/auth/signup/route.js": {
+    "file": "assets/route-BtviTAeu.js",
+    "name": "route",
+    "src": "src/app/api/auth/signup/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/auth/token/route.js": {
+    "file": "assets/route-CnUs8NfG.js",
+    "name": "route",
+    "src": "src/app/api/auth/token/route.js",
+    "isDynamicEntry": true
+  },
+  "src/app/api/builds/[id]/route.js": {
+    "file": "assets/route-B7P2KlWq.js",
+    "name": "route",
+    "src": "src/app/api/builds/[id]/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js",
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/builds/route.js": {
+    "file": "assets/route-BBebniLI.js",
+    "name": "route",
+    "src": "src/app/api/builds/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js",
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/projects/[id]/route.js": {
+    "file": "assets/route-D3EbdLPZ.js",
+    "name": "route",
+    "src": "src/app/api/projects/[id]/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js",
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/projects/route.js": {
+    "file": "assets/route-BZJXXPvx.js",
+    "name": "route",
+    "src": "src/app/api/projects/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js",
+      "_sql-BfhTxwII.js"
+    ]
+  },
+  "src/app/api/validate-pwa/route.js": {
+    "file": "assets/route-DheUpW9P.js",
+    "name": "route",
+    "src": "src/app/api/validate-pwa/route.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth-CHx9EKV0.js"
+    ]
+  },
+  "virtual:react-router/server-build": {
+    "file": "assets/server-build.js",
+    "name": "server-build",
+    "src": "virtual:react-router/server-build",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-Dso1OIu2.js"
+    ],
+    "css": [
+      "assets/server-build-D6sR9oaX.css"
+    ]
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "_PolymorphicComponent-m3EPk8oL.js": {
+    "file": "assets/PolymorphicComponent-m3EPk8oL.js",
+    "name": "PolymorphicComponent",
+    "imports": [
+      "_chunk-UVKPFVEO-CkH3atAL.js"
+    ]
+  },
+  "_ServerManager-M1U8KWEI.js": {
+    "file": "assets/ServerManager-M1U8KWEI.js",
+    "name": "ServerManager",
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_backend-config-DwrcSdvg.js",
+      "_layout-BwDeApK8.js",
+      "_zap-Cj9q2cUs.js",
+      "_globe-B1DS4exG.js",
+      "_refresh-ccw-SB6hSliT.js",
+      "_circle-alert-D3eEZNgd.js"
+    ]
+  },
+  "_api-CCLOaSw9.js": {
+    "file": "assets/api-CCLOaSw9.js",
+    "name": "api",
+    "imports": [
+      "_backend-config-DwrcSdvg.js"
+    ]
+  },
+  "_backend-config-DwrcSdvg.js": {
+    "file": "assets/backend-config-DwrcSdvg.js",
+    "name": "backend-config",
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_useUser-DZRt8rYu.js",
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_chunk-UVKPFVEO-CkH3atAL.js": {
+    "file": "assets/chunk-UVKPFVEO-CkH3atAL.js",
+    "name": "chunk-UVKPFVEO"
+  },
+  "_circle-alert-D3eEZNgd.js": {
+    "file": "assets/circle-alert-D3eEZNgd.js",
+    "name": "circle-alert",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_globe-B1DS4exG.js": {
+    "file": "assets/globe-B1DS4exG.js",
+    "name": "globe",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_index-bYrxpRiI.js": {
+    "file": "assets/index-bYrxpRiI.js",
+    "name": "index",
+    "imports": [
+      "_chunk-UVKPFVEO-CkH3atAL.js"
+    ]
+  },
+  "_layout-BwDeApK8.js": {
+    "file": "assets/layout-BwDeApK8.js",
+    "name": "layout",
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js"
+    ]
+  },
+  "_package-DsMqTYY9.js": {
+    "file": "assets/package-DsMqTYY9.js",
+    "name": "package",
+    "imports": [
+      "_layout-BwDeApK8.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js"
+    ]
+  },
+  "_palette-DD4_6SoJ.js": {
+    "file": "assets/palette-DD4_6SoJ.js",
+    "name": "palette",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_play-DJWNCDHb.js": {
+    "file": "assets/play-DJWNCDHb.js",
+    "name": "play",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_plus-CIC9DESs.js": {
+    "file": "assets/plus-CIC9DESs.js",
+    "name": "plus",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_react-CrDNMclP.js": {
+    "file": "assets/react-CrDNMclP.js",
+    "name": "react",
+    "imports": [
+      "_chunk-UVKPFVEO-CkH3atAL.js"
+    ]
+  },
+  "_refresh-ccw-SB6hSliT.js": {
+    "file": "assets/refresh-ccw-SB6hSliT.js",
+    "name": "refresh-ccw",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_rocket-Cq60GjYf.js": {
+    "file": "assets/rocket-Cq60GjYf.js",
+    "name": "rocket",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_shield-alert-WBKCt6mx.js": {
+    "file": "assets/shield-alert-WBKCt6mx.js",
+    "name": "shield-alert",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_smartphone-DydgCmRT.js": {
+    "file": "assets/smartphone-DydgCmRT.js",
+    "name": "smartphone",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_terminal-De0E3naA.js": {
+    "file": "assets/terminal-De0E3naA.js",
+    "name": "terminal",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "_useAuth-DuK4j7qz.js": {
+    "file": "assets/useAuth-DuK4j7qz.js",
+    "name": "useAuth",
+    "imports": [
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "_useUser-DZRt8rYu.js": {
+    "file": "assets/useUser-DZRt8rYu.js",
+    "name": "useUser",
+    "imports": [
+      "_layout-BwDeApK8.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "_zap-Cj9q2cUs.js": {
+    "file": "assets/zap-Cj9q2cUs.js",
+    "name": "zap",
+    "imports": [
+      "_layout-BwDeApK8.js"
+    ]
+  },
+  "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
+    "file": "assets/entry.client-B3ujSpj8.js",
+    "name": "entry.client",
+    "src": "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_index-bYrxpRiI.js"
+    ]
+  },
+  "src/app/__create/not-found.tsx?__react-router-build-client-route": {
+    "file": "assets/not-found-DYGx9Hdu.js",
+    "name": "not-found",
+    "src": "src/app/__create/not-found.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js"
+    ]
+  },
+  "src/app/account/logout/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-CIFLIEfo.js",
+    "name": "page",
+    "src": "src/app/account/logout/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_useAuth-DuK4j7qz.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/account/signin/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-DZcfKK9D.js",
+    "name": "page",
+    "src": "src/app/account/signin/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_useAuth-DuK4j7qz.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/account/signup/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-D0_cOP2w.js",
+    "name": "page",
+    "src": "src/app/account/signup/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_useAuth-DuK4j7qz.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/admin/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-KEFfU-R0.js",
+    "name": "page",
+    "src": "src/app/admin/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_backend-config-DwrcSdvg.js",
+      "_api-CCLOaSw9.js",
+      "_ServerManager-M1U8KWEI.js",
+      "_package-DsMqTYY9.js",
+      "_terminal-De0E3naA.js",
+      "_shield-alert-WBKCt6mx.js",
+      "_circle-alert-D3eEZNgd.js",
+      "_useUser-DZRt8rYu.js",
+      "_react-CrDNMclP.js",
+      "_zap-Cj9q2cUs.js",
+      "_globe-B1DS4exG.js",
+      "_refresh-ccw-SB6hSliT.js"
+    ]
+  },
+  "src/app/dashboard/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-CEB1pBuq.js",
+    "name": "page",
+    "src": "src/app/dashboard/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_backend-config-DwrcSdvg.js",
+      "_api-CCLOaSw9.js",
+      "_package-DsMqTYY9.js",
+      "_plus-CIC9DESs.js",
+      "_play-DJWNCDHb.js",
+      "_useUser-DZRt8rYu.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-CwXdBAbC.js",
+    "name": "page",
+    "src": "src/app/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_smartphone-DydgCmRT.js",
+      "_globe-B1DS4exG.js",
+      "_plus-CIC9DESs.js"
+    ]
+  },
+  "src/app/projects/[id]/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-BquFWuWi.js",
+    "name": "page",
+    "src": "src/app/projects/[id]/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_backend-config-DwrcSdvg.js",
+      "_api-CCLOaSw9.js",
+      "_package-DsMqTYY9.js",
+      "_palette-DD4_6SoJ.js",
+      "_play-DJWNCDHb.js",
+      "_refresh-ccw-SB6hSliT.js",
+      "_terminal-De0E3naA.js",
+      "_circle-alert-D3eEZNgd.js",
+      "_useUser-DZRt8rYu.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/projects/new/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-fUi3w6UD.js",
+    "name": "page",
+    "src": "src/app/projects/new/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_backend-config-DwrcSdvg.js",
+      "_api-CCLOaSw9.js",
+      "_palette-DD4_6SoJ.js",
+      "_refresh-ccw-SB6hSliT.js",
+      "_globe-B1DS4exG.js",
+      "_smartphone-DydgCmRT.js",
+      "_zap-Cj9q2cUs.js",
+      "_rocket-Cq60GjYf.js",
+      "_useUser-DZRt8rYu.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/root.tsx?__react-router-build-client-route": {
+    "file": "assets/root-C3nSIA2n.js",
+    "name": "root",
+    "src": "src/app/root.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_react-CrDNMclP.js",
+      "_index-bYrxpRiI.js"
+    ],
+    "css": [
+      "assets/root-D6sR9oaX.css"
+    ]
+  },
+  "src/app/settings/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-DF0uAo2J.js",
+    "name": "page",
+    "src": "src/app/settings/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_backend-config-DwrcSdvg.js",
+      "_ServerManager-M1U8KWEI.js",
+      "_useUser-DZRt8rYu.js",
+      "_zap-Cj9q2cUs.js",
+      "_globe-B1DS4exG.js",
+      "_refresh-ccw-SB6hSliT.js",
+      "_circle-alert-D3eEZNgd.js",
+      "_react-CrDNMclP.js"
+    ]
+  },
+  "src/app/setup-admin/page.jsx?__react-router-build-client-route": {
+    "file": "assets/page-BFzAkpUT.js",
+    "name": "page",
+    "src": "src/app/setup-admin/page.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_PolymorphicComponent-m3EPk8oL.js",
+      "_chunk-UVKPFVEO-CkH3atAL.js",
+      "_layout-BwDeApK8.js",
+      "_useUser-DZRt8rYu.js",
+      "_shield-alert-WBKCt6mx.js",
+      "_rocket-Cq60GjYf.js",
+      "_react-CrDNMclP.js"
+    ]
+  }
+}

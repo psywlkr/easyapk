@@ -1,24 +1,15 @@
-FROM node:20-alpine AS builder
-
-WORKDIR /app
-
-COPY package*.json .npmrc ./
-RUN npm install --legacy-peer-deps
-
-COPY . .
-RUN npm run build
-
-FROM node:20-alpine AS runner
+FROM node:20-alpine
 
 WORKDIR /app
 
 ENV NODE_ENV=production
 
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/build ./build
-COPY --from=builder /app/public ./public
+COPY package*.json ./
+RUN npm install --omit=dev --legacy-peer-deps
+
+COPY build ./build
+COPY public ./public
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start"]
+CMD ["node", "build/server/index.js"]

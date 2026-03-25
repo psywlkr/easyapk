@@ -1,8 +1,10 @@
 node_modules/
-build/
+# build/ included for Railway pre-built deploy
 .env
 .env.local
 .env.production
 dist/
 *.log
 .DS_Store
+
+.vercel

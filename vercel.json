@@ -1,16 +1,6 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "build",
-  "installCommand": "npm install",
-  "framework": null,
-  "functions": {
-    "build/server/index.js": {
-      "runtime": "nodejs20.x",
-      "maxDuration": 30
-    }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/build/server/index.js" }
-  ]
+  "outputDirectory": "build/client",
+  "installCommand": "npm install"
 }
